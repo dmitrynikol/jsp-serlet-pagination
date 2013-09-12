@@ -22,3 +22,7 @@ from the cache instead of querying the database to fetch the next set of results
 And also fetching a lot of data from database requires many resources(CPU and memory). Nobody likes a slow website, faster is always better.
 And the second way more interesting approach. We get a range of records every time we need and display it to the user, just limit the result 
 of data that we need to display. This approaches solves a lot of problems. And we will build application that way.
+
+This example uses two tables Group and Product. Here is the link to the [mysql database dump file](https://github.com/dmitrynikol/jsp-serlet-pagination/tree/master/mysql-database-dump).
+* [Transfer object classes](https://github.com/dmitrynikol/jsp-serlet-pagination/tree/master/src/com/dmitrynikol/entity) that will encapsulates our business data.
+
