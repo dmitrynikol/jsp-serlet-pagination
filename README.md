@@ -23,6 +23,17 @@ And also fetching a lot of data from database requires many resources(CPU and me
 And the second way more interesting approach. We get a range of records every time we need and display it to the user, just limit the result 
 of data that we need to display. This approaches solves a lot of problems. And we will build application that way.
 
-This example uses two tables Group and Product. Here is the link to the [mysql database dump file](https://github.com/dmitrynikol/jsp-serlet-pagination/tree/master/mysql-database-dump).
+* This example uses two tables Group and Product. Here is the link to the [mysql database dump file](https://github.com/dmitrynikol/jsp-serlet-pagination/tree/master/mysql-database-dump).
 * [Transfer object classes](https://github.com/dmitrynikol/jsp-serlet-pagination/tree/master/src/com/dmitrynikol/entity) that will encapsulates our business data.
 
+* [Connection factory help](https://github.com/dmitrynikol/jsp-serlet-pagination/blob/master/src/com/dmitrynikol/util/ConnectionFactory.java) us to make connection to the database. And of course it’s a singleton.
+
+* [Data Access Object](https://github.com/dmitrynikol/jsp-serlet-pagination/tree/master/src/com/dmitrynikol/dao) or DAO encapsulates database operations.
+
+* Servlet processes different request parameters like group of products, current page, desc/asc sorting. Also we are storing a lot of attributes in the request scope and then forwarding request to a JSP. 
+Here is the code of [Servlet](https://github.com/dmitrynikol/jsp-serlet-pagination/blob/master/src/com/dmitrynikol/serlets/ProductServlet.java).
+ 
+* Only one [JSP page])(https://github.com/dmitrynikol/jsp-serlet-pagination/blob/master/WebContent/displayProduct.jsp) that retrieves the attributes from request and display the result. Easier to nowhere! :)
+
+ 
+ 
