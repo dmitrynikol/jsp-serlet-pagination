@@ -35,5 +35,7 @@ Here is the code of [Servlet](https://github.com/dmitrynikol/jsp-serlet-paginati
  
 * Only one [JSP page](https://github.com/dmitrynikol/jsp-serlet-pagination/blob/master/WebContent/displayProduct.jsp) that retrieves the attributes from request and display the result. Easier to nowhere! :)
 
+In summary, here is the [project structure](https://github.com/dmitrynikol/jsp-serlet-pagination/blob/master/screenshots/project_hierarchy.png) and [other screenshots](https://github.com/dmitrynikol/jsp-serlet-pagination/tree/master/screenshots).
+
  
  
