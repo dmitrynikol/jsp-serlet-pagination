@@ -33,7 +33,7 @@ of data that we need to display. This approaches solves a lot of problems. And w
 * Servlet processes different request parameters like group of products, current page, desc/asc sorting. Also we are storing a lot of attributes in the request scope and then forwarding request to a JSP. 
 Here is the code of [Servlet](https://github.com/dmitrynikol/jsp-serlet-pagination/blob/master/src/com/dmitrynikol/serlets/ProductServlet.java).
  
-* Only one [JSP page])(https://github.com/dmitrynikol/jsp-serlet-pagination/blob/master/WebContent/displayProduct.jsp) that retrieves the attributes from request and display the result. Easier to nowhere! :)
+* Only one [JSP page](https://github.com/dmitrynikol/jsp-serlet-pagination/blob/master/WebContent/displayProduct.jsp) that retrieves the attributes from request and display the result. Easier to nowhere! :)
 
  
  
