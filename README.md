@@ -1,6 +1,6 @@
 ### Pagination using JSP and Servlets
 
-This article explains how to build application with pagination and data sorting using only JSP and Servlets. I will describe details about 
+This is a little explanation of how to build application with pagination and data sorting using only JSP and Servlets. I will describe details about 
 pagination engine, the best practice for database connection, what is Data Transfer Object (DAO) and Transfer Object, how to write servlet 
 and bind it with JSP. Only one jstl.jar you need for project and it should be placed on the WEB-INF/lib directory.
 
